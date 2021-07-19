@@ -1,0 +1,58 @@
+.policiesbodycontent{
+    padding: 3em;
+    padding-top: 8em;
+
+}
+
+
+
+.title-policies{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.policiesbodycontent >p>span{
+   
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px;
+}
+
+
+
+.downn-button{
+    -o-animation: flickerAnimation 3s infinite;
+    animation: flickerAnimation 2s infinite;
+}
+
+
+@keyframes AnimationName {
+   0%{background-position:50% 0%}
+   50%{background-position:51% 100%}
+   100%{background-position:50% 0%}
+}
+
+
+@media(max-width:550px){
+    .title-policies{
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .policiesbodycontent{
+        padding-top: 5em;
+        
+    }
+    
+}
+
+@media(max-width:768px){
+    .downn-button{
+        left: 42%;
+    }
+}
+
+

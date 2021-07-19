@@ -1,0 +1,40 @@
+.navbar-vogz{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+   
+    background: linear-gradient(107.97deg, #A785FE 0%, #5777FF 100%);
+    padding-left: 2em;
+    padding-right: 1em;
+    position: fixed;
+}
+
+.navbar-left-back{
+
+}
+
+.navbar-left-back > i {
+   font-size: 2rem;
+   color:#fff
+}
+
+.navbar-right-vogz{
+
+}
+
+.logo-vogz-navbar{
+    width: 11rem;
+}
+
+@media(max-width:550px){
+    .logo-vogz-navbar{
+        width: 8rem;
+      
+    } 
+    .navbar-vogz{
+        height:4em;
+        padding-left: .5em;
+        padding-right: 0em;
+    }
+}
